@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2D3E50;
+  margin: 0;
+}
+
+section {
+  max-width: 57%;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.overlay{
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2D3E50;
+  opacity: .7;
+}
+
+.landing-text {
+  z-index: 2;
+  text-align: center;
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 380%;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+h3 {
+  font-size: 230%;
+  font-weight: 400;
+  margin-top: -4%;
+  padding-bottom: 3%;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 140%;
+  background-color: #2A80B9;
+  padding: 2% 3%;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 130%;
+  padding: 3%;
+}
